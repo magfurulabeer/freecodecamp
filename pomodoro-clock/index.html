@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro Clock</title>
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="look.css">
+</head>
+<body>
+	<h1>Pomodoro Clock</h1>
+	<div class="settings">
+		<h3>Session Length</h3>
+		<span onclick="minusSession()">-</span>
+		<span id="session">25</span>
+		<span onclick="plusSession()">+</span>
+	</div>
+	<div class="settings">
+		<h3>Break Length</h3>
+		<span onclick="minusBreak()">-</span>
+		<span id="break">5</span>
+		<span onclick="plusBreak()">+</span>
+	</div>
+	<div id="clock" onclick="toggleOn()">
+		<h2 id="segment">Session</h2>
+		<h1 id="timer">Please turn on Javascript</h1>
+	</div>
+
+	<script src="mechanics.js"></script>
+</body>
+</html>

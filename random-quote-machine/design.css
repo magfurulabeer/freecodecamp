@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(symphony.png);
+	/* Pattern used: Symphony by Irfan iLias from http://www.subtlepatterns.com */
+	text-align: center;
+	padding: 30px;
+	font-family: "Playball", cursive;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+button {
+	font-family: "Playball", cursive;
+	margin: 30px auto 0px auto;
+	font-size: 2em;
+	color: yellow;
+	text-transform: uppercase;
+	height: 50px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 255, 0.3);
+	background: 
+	linear-gradient(rgba(0, 0, 255, 0.45), rgba(0, 0, 255, 0.45)),
+	    url(squared_metal.png);
+	}
+	/* Pattern used: Squared Metal by doot0 from http://www.subtlepatterns.com */
+}
+
+footer {
+	font-size: 1em;
+	font-family: monospace;
+	text-align: left;
+}
+
+blockquote {
+	font-family: monospace;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	font-size: 1.2em;
+	background-color: rgba(255,255,255,.5);
+	border: 1px dotted rgba(51,51,51,.6);
+	border-radius: 5px;
+	padding: 10px;
+
+}
+
+div#quote {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(ball.png);
+	background-size: 100% auto;
+	height: 320px;
+	width: 500px;
+	padding-top: 165px;
+}
